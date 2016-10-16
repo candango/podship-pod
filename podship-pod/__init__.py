@@ -34,7 +34,8 @@ class PodComponent(firenado.tornadoweb.TornadoComponent):
         self.security_conf = None
         self.master_gateway_available = False
         self.project_root = os.path.abspath(
-                os.path.join(os.path.dirname(__file__), '..'))
+                os.path.join(os.path.dirname(__file__),
+                             "..", "..", "..", "podship", "podship"))
         self.gateways = {}
 
     def get_handlers(self):
