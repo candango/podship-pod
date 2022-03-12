@@ -16,7 +16,7 @@
 
 import firenado.tornadoweb
 
-from podship.pod.components.user import handlers
+from podship-pod.components.user import handlers
 
 
 class UserComponent(firenado.tornadoweb.TornadoComponent):
